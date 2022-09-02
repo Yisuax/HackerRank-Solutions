@@ -23,8 +23,6 @@ import Foundation
  */
 
 func simpleArraySum(ar: [Int]) -> Int {
-    // Write your code here
-    //var current = values[0]
     var total = 0
     for val in ar[0...] {
         total += val 
